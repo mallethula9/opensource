@@ -1,0 +1,6 @@
+x=int(input())
+if x >= 15:
+    vignesh_age = x-15
+else:
+    vignesh_age = 0
+print(vignesh_age)
