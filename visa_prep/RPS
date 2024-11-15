@@ -1,0 +1,11 @@
+def determine_winner(vignesh,charan):
+    if vignesh == charan:
+        return "NULL"
+    elif (vignesh == "R" and charan == "P") or (vignesh == "P" and charan == "S") or (vignesh == "S" and charan == "R"):
+        return "Charan"
+    else:
+        return "Vignesh"
+
+vignesh, charan = input().split()
+winner = determine_winner(vignesh,charan)
+print(winner)
